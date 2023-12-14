@@ -126,8 +126,12 @@ sd:
   #
   # by doing this, you can reduce the amount of time need to setup the webui to your liking
   #
-  config_json: https://github.com/RRRea/webui-settings/raw/main/config.json
-  ui_config_json: https://github.com/RRRea/webui-settings/raw/main/ui-config.json
+  config_json:
+    - name: config.json
+      url: https://github.com/RRRea/webui-settings/raw/main/config.json
+  ui_config_json:
+    - name: ui-config.json
+      url: https://github.com/RRRea/webui-settings/raw/main/ui-config.json
   #
   # env stand for Environment
   # args stand for Arguments
