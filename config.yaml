@@ -88,7 +88,7 @@ sd:
   # oh yea controlnet will be installed whether you want it or not (even if you don't include it)
   extensions:
     - name: sd-webui-tunnels
-      url: https://github.com/heatmobcompany/sd-webui-tunnels
+      url: https://github.com/Bing-su/sd-webui-tunnels
     - name: sd-webui-controlnet
       url: https://github.com/Mikubill/sd-webui-controlnet
     - name: sd-webui-civbrowser
