@@ -97,8 +97,6 @@ sd:
       url: https://github.com/DominikDoom/a1111-sd-webui-tagcomplete
     - name: sd-webui-infinite-image-browsing
       url: https://github.com/zanllp/sd-webui-infinite-image-browsing
-    - name: ncpt_colab_timer
-      url: https://github.com/NoCrypt/ncpt_colab_timer
     - name: adetailer
       url: https://github.com/Bing-su/adetailer
     - name: ultimate-upscale-for-automatic1111
