@@ -35,14 +35,110 @@ common:
     # - name:
     #   url:
   embeddings:
-    # - name:
-    #   url:
+    - name: NegMutation-500.pt
+      url: https://huggingface.co/tolerantpancake/NegativeMutation/resolve/main/NegMutation-500.pt
+    - name: NegLowRes-2400.pt
+      url: https://huggingface.co/tolerantpancake/NegativeLowResolution/resolve/main/NegLowRes-2400.pt
+    - name: EasyNegative.pt
+      url: https://huggingface.co/embed/negative/resolve/main/EasyNegative.pt
+    - name: EasyNegativeV2.safetensors
+      url: https://huggingface.co/embed/negative/resolve/main/EasyNegativeV2.safetensors
+    - name: bad-artist-anime.pt
+      url: https://huggingface.co/embed/negative/resolve/main/bad-artist-anime.pt
+    - name: bad-artist.pt
+      url: https://huggingface.co/embed/negative/resolve/main/bad-artist.pt
+    - name: bad-hands-5.pt
+      url: https://huggingface.co/embed/negative/resolve/main/bad-hands-5.pt
+    - name: bad-image-v2-39000.pt
+      url: https://huggingface.co/embed/negative/resolve/main/bad-image-v2-39000.pt
+    - name: bad_prompt_version2.pt
+      url: https://huggingface.co/embed/negative/resolve/main/bad_prompt_version2.pt
+    - name: ng_deepnegative_v1_75t.pt
+      url: https://huggingface.co/embed/negative/resolve/main/ng_deepnegative_v1_75t.pt
+    - name: verybadimagenegative_v1.3.pt
+      url: https://huggingface.co/embed/negative/resolve/main/verybadimagenegative_v1.3.pt
   hypernetwork:
     # - name:
     #   url:
   controlnet:
-    # - name:
-    #   url:
+    - name: control_v11e_sd15_ip2p_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11e_sd15_ip2p_fp16.safetensors
+    - name: control_v11e_sd15_shuffle_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11e_sd15_shuffle_fp16.safetensors
+    - name: control_v11p_sd15_canny_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny_fp16.safetensors
+    - name: control_v11f1p_sd15_depth_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11f1p_sd15_depth_fp16.safetensors
+    - name: control_v11p_sd15_inpaint_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_inpaint_fp16.safetensors
+    - name: control_v11p_sd15_lineart_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_lineart_fp16.safetensors
+    - name: control_v11p_sd15_mlsd_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_mlsd_fp16.safetensors
+    - name: control_v11p_sd15_normalbae_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_normalbae_fp16.safetensors
+    - name: control_v11p_sd15_openpose_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose_fp16.safetensors
+    - name: control_v11p_sd15_scribble_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_scribble_fp16.safetensors
+    - name: control_v11p_sd15_seg_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_seg_fp16.safetensors
+    - name: control_v11p_sd15_softedge_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_softedge_fp16.safetensors
+    - name: control_v11p_sd15s2_lineart_anime_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15s2_lineart_anime_fp16.safetensors
+    - name: control_v11f1e_sd15_tile_fp16.safetensors
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile_fp16.safetensors
+    - name: control_v11e_sd15_ip2p_fp16.yaml
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11e_sd15_ip2p_fp16.yaml
+    - name: control_v11e_sd15_shuffle_fp16.yaml
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11e_sd15_shuffle_fp16.yaml
+    - name: control_v11p_sd15_canny_fp16.yaml
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny_fp16.yaml
+    - name: control_v11f1p_sd15_depth_fp16.yaml
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11f1p_sd15_depth_fp16.yaml
+    - name: control_v11p_sd15_inpaint_fp16.yaml
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_inpaint_fp16.yaml
+    - name: control_v11p_sd15_lineart_fp16.yaml
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_lineart_fp16.yaml
+    - name: control_v11p_sd15_mlsd_fp16.yaml
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_mlsd_fp16.yaml
+    - name: control_v11p_sd15_normalbae_fp16.yaml
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_normalbae_fp16.yaml
+    - name: control_v11p_sd15_openpose_fp16.yaml
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose_fp16.yaml
+    - name: control_v11p_sd15_scribble_fp16.yaml
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_scribble_fp16.yaml
+    - name: control_v11p_sd15_seg_fp16.yaml
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_seg_fp16.yaml
+    - name: control_v11p_sd15_softedge_fp16.yaml
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15_softedge_fp16.yaml
+    - name: control_v11p_sd15s2_lineart_anime_fp16.yaml
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/control_v11p_sd15s2_lineart_anime_fp16.yaml
+    - name: t2iadapter_style_sd14v1.pth
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_style_sd14v1.pth
+    - name: t2iadapter_sketch_sd14v1.pth
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_sketch_sd14v1.pth
+    - name: t2iadapter_seg_sd14v1.pth
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_seg_sd14v1.pth
+    - name: t2iadapter_openpose_sd14v1.pth
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_openpose_sd14v1.pth
+    - name: t2iadapter_keypose_sd14v1.pth
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_keypose_sd14v1.pth
+    - name: t2iadapter_depth_sd14v1.pth
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_depth_sd14v1.pth
+    - name: t2iadapter_color_sd14v1.pth
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_color_sd14v1.pth
+    - name: t2iadapter_canny_sd14v1.pth
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_canny_sd14v1.pth
+    - name: t2iadapter_canny_sd15v2.pth
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_canny_sd15v2.pth
+    - name: t2iadapter_depth_sd15v2.pth
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_depth_sd15v2.pth
+    - name: t2iadapter_sketch_sd15v2.pth
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_sketch_sd15v2.pth
+    - name: t2iadapter_zoedepth_sd15v1.pth
+      url: https://huggingface.co/ckpt/ControlNet-v1-1/resolve/main/t2iadapter_zoedepth_sd15v1.pth
 sd:
   # this is a section for stable diffusion webui
   # "ui" folder will have this structure
@@ -117,6 +213,12 @@ sd:
   # this is useful when you want to download extra models but its not covered in common section
   #
   custom_download:
+    - dir: models/ESRGAN
+      name: 4x-UltraSharp.pth
+      url: https://huggingface.co/embed/upscale/resolve/main/4x-UltraSharp.pth
+    - dir: models/ESRGAN
+      name: 4x-AnimeSharp.pth
+      url: https://huggingface.co/konohashinobi4/4xAnimesharp/resolve/main/4x-AnimeSharp.pth
     # - dir:
     #   name:
     #   url:
