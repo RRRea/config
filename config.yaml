@@ -120,10 +120,10 @@ sd:
     # - dir:
     #   name:
     #   url:
-    - dir: ui/sd
+    - dir:
       name: config.json
       url: https://github.com/RRRea/webui-settings/raw/main/config.json
-    - dir: ui/sd
+    - dir:
       name: ui-config.json
       url: https://github.com/RRRea/webui-settings/raw/main/ui-config.json
   #
